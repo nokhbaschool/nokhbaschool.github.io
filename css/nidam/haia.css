@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    direction: rtl;
+    overflow: visible;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.call-us{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    right: 90px;
+    margin-top: 5px;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.call-us:hover{
+    transform: rotate(360deg);
+}
+.page-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background:#1d7daf ;
+    direction: rtl;
+
+
+}
+.page-header a{
+    color: #fff;
+    padding: 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 19px;
+    position: relative;
+    right: 100px;
+    direction: ltr;
+}
+.page-header a:hover{
+    opacity: .6;
+}
+/* logo.. */
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: right;
+    margin: 10px 12px 0 60px;
+    cursor: pointer;
+
+}
+.logo:hover{
+    transform: rotate(360deg);
+
+}
+/* navigator.. */
+.header_mid_inner{
+    background: #ccc;
+}
+
+nav ul{
+    width: 95%;
+    float: right;
+    margin-right: 30px;
+    direction: rtl;
+    z-index: 90;
+    background: #1d7daf;
+    position: absolute;
+    top: 3pc;
+    border-radius: 6px;
+    z-index: 1000;
+}
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+
+}
+nav ul li .outside{
+    display: block;
+    padding: 0px 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 33px;
+    font-family: system-ui;
+
+}
+nav ul li .inside a {
+    display: block;
+    padding: 0px 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5px;
+    font-family: system-ui;
+}
+nav ul li #inside1 a:hover{
+    background: #021925;
+    width: 143px;
+    border-radius: 0 0 6px 6px;
+
+}
+nav ul li #inside2 a:hover{
+    background: #021925;
+    width: 132px;
+    border-radius: 0 0 6px 6px;
+
+}   
+nav ul li #inside3 a:hover{
+    background: #021925;
+    width: 129px;
+    border-radius: 0 0 6px 6px;
+
+}   
+nav ul li #inside4 a:hover{
+    background: #021925;
+    width: 137px;
+    border-radius: 0 0 6px 6px;
+
+}   
+                        
+nav ul li .inside{
+    margin-top: 40px;
+}
+nav ul ul {
+    position: absolute;
+    top:30px;
+    display: none;
+    line-height: 0;
+}
+
+nav ul li:hover > ul {
+    display: block;
+
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+
+/* section............. */
+.haia{
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    top: 18pc;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+.haia h1{
+    font-family: system-ui;
+    color: #021925;
+    padding: 0 0 80px 0;
+    font-size: 40px;
+}
+.haia p{
+    font-family: system-ui;
+    color: #021925;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 40px;
+    text-align: right;
+}
+.haia li{
+    font-family: system-ui;
+    color: #021925;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 100vh;
+    background: #021925;
+
+}
+.footer-container{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid;
+    padding-bottom: 50px;
+
+}
+.footer-container a{
+    color: #fff;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* first.. */
+.footer-container .links h1{
+    font-size: 23px;
+    margin: 30px 0;
+}
+.footer-container .links li{
+    list-style: none;
+    margin: 13px 16px 0 0;
+}
+.footer-container .links li a{
+    color: #ccc;
+}
+
+/* second... */
+.footer-container .connection h1{
+    font-size: 23px;
+    margin: 30px 0;
+}
+.footer-container .connection h2{
+    font-size: 19px;
+    margin: 15px 0;
+}
+.footer-container .connection p{
+    font-size: 17px;
+    margin: 7.5px 0;
+    color: #ccc;
+}
+.footer-container .connection p a{
+    color: #ccc;
+}
+
+
+/* third... */
+.footer-container .location h1{
+    font-size: 23px;
+    margin: 30px 0;
+}
+
+/* second footer... */
+.end-page-logo img{
+    width: 15%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    right: 42.5%;
+    margin-top: 30px;
+}
+.social-media{
+    width: auto;
+    position: relative;
+    top: 12pc;
+    left: 2pc;
+    float: left;
+}
+.social-media img{
+    width: 50px;
+    margin-right: 10px;
+}
+.social-media a {
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 5px;
+}
